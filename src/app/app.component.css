@@ -1,0 +1,51 @@
+mat-toolbar {
+    margin-bottom: 24px;
+}
+
+mat-toolbar>span {
+    margin-left: 16px;
+}
+
+.content-wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 25px 25px 0;
+}
+
+.list {
+    border: 1px solid #ccc;
+    min-height: 60px;
+    border-radius: 4px;
+}
+
+app-task {
+    margin: 8px 16px;
+}
+
+.empty-label {
+    font-size: 2em;
+    padding-top: 10px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.cdk-drag-animating {
+    transition: transform 250ms;
+}
+
+.cdk-drag-placeholder {
+    opacity: 0;
+}
+
+
+}
